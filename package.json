@@ -6,6 +6,22 @@
   "keywords": [
     ""
   ],
+  "scripts": {
+    "start": "node main.js"
+  },
   "author": "Greg Walker <michael.walker@gsa.gov>",
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "dotenv": "^2.0.0",
+    "mustache": "^2.2.1",
+    "node-trello": "^1.1.2",
+    "pdc": "^0.2.2",
+    "restify": "^4.1.1",
+    "uuid": "^2.0.2"
+  },
+  "engines": {
+    "node": "^6.1.0",
+    "npm": "^3.8.6"
+  }
 }
